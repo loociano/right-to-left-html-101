@@ -12,7 +12,7 @@ td {
 	text-align: right;
 }
 /* Override rtl */
-.rtl .myclass {
+html[dir="rtl"] .myclass {
 	text-align: left;
 }
 
@@ -28,7 +28,7 @@ td {
 }
 
 /* Override for rtl */
-.rtl .block {
+html[dir="rtl"] .block {
 	float: right;
 }
 
@@ -37,4 +37,3 @@ td {
 .end { background-color: #999; }
 
 
-	
