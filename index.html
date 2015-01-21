@@ -35,7 +35,13 @@
 	.end { background-color: #eee; }
 
 	table, tr, td {
+		margin: 10px;
 		border: 1px solid black;
+	}
+
+	td {
+		width: 200px;
+		font-size: 3em;
 	}
 	
 	</style>
@@ -45,12 +51,12 @@
 
 	<p><bdo dir="ltr">+44 123 456</bdo></p>
 
-	<p>There is English and اختيار Arabic here</p>
+	<p><bdo dir="ltr">There is English and <bdo dir="rtl">اختيار</bdo> Arabic here</bdo></p>
 
 	<p><bdo dir="ltr">Aircalin (SB410)</bdo></p>
 
-	<div class="rtl-shit-to-end myclass" style="border: 1px solid red;">
-		<p>Text to the end of this line</p>
+	<div class="myclass" style="border: 1px solid red;">
+		<p>Text at the end of the line</p>
 	</div>
 
 	<p>Weak separators</p>
@@ -67,7 +73,7 @@
 		<div class="block end">C</div>
 	</div>
 
-	<table>
+	<table style="clear:both;">
 		<tr>
 			<td>1</td><td>2</td>
 		</tr>
