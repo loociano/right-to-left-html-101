@@ -8,9 +8,17 @@ td {
 	font-size: 3em;
 }
 
+#toggleDirection {
+	position: fixed; 
+	top: 0; 
+	right: 0;
+	margin: 10px;
+}
+
 .myclass {
 	text-align: right;
 }
+
 /* Override rtl */
 html[dir="rtl"] .myclass {
 	text-align: left;
