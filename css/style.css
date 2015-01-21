@@ -1,0 +1,40 @@
+table, tr, td {
+	margin: 10px;
+	border: 1px solid black;
+}
+
+td {
+	width: 200px;
+	font-size: 3em;
+}
+
+.myclass {
+	text-align: right;
+}
+/* Override rtl */
+.rtl .myclass {
+	text-align: left;
+}
+
+.block {
+	color: white;
+	font-size: 5em;
+	font-family: "Verdana";
+	width: 30%;
+	border: 1px solid #aaa;
+	height: 100px;
+	padding: 10px;
+	float: left;
+}
+
+/* Override for rtl */
+.rtl .block {
+	float: right;
+}
+
+.begin { background-color: #555; }
+.middle { background-color: #777; }
+.end { background-color: #999; }
+
+
+	
